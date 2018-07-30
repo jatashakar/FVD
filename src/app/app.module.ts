@@ -13,6 +13,7 @@ import { PrivacyPolicyComponent } from './src/footer/privacy-policy/privacy-poli
 import { ContactComponent } from './src/footer/contact/contact.component';
 import { DMCAComponent } from './src/footer/dmca/dmca.component';
 import { FAQComponent } from './src/footer/faq/faq.component';
+import { MainComponent } from './src/main/main.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FAQComponent } from './src/footer/faq/faq.component';
     PrivacyPolicyComponent,
     ContactComponent,
     DMCAComponent,
-    FAQComponent
+    FAQComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule
