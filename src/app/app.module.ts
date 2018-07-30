@@ -32,11 +32,11 @@ import { MainComponent } from './src/main/main.component';
     FAQComponent,
     MainComponent,
     RouterModule.forRoot([
-        {path : 'products' , component: ProductListComponent},
-        {path : 'products/:id' , component: ProductDetailsComponent},
-        {path : 'welcome' , component: WelcomeComponent},
-        {path : '' , redirectTo: 'welcome', pathMatch: 'full'},
-        {path : '**' , redirectTo: 'welcome', pathMatch: 'full'}
+        {path : 'home' , component: HomeComponent},
+        {path : 'desktop' , component: DeskTopComponent},
+        {path : 'home' , component: HomeComponent},
+        {path : '' , redirectTo: 'home', pathMatch: 'full'},
+        {path : '**' , redirectTo: 'home', pathMatch: 'full'}
   
       ])
   ],
