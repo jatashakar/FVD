@@ -11,22 +11,27 @@
      </nav>
        -->
        <nav class="navbar navbar-light bg-faded">
+        ,<div>
         <a class="navbar-brand"
-           [routerLink]="['home']">Home
+           [routerLink]="['/']">Home
         </a>
+        </div>
         <ul class="nav navbar-nav">
-          <li class="nav-item"
-              [routerLinkActive]="['active']">
-            <a class="nav-link"
-               [routerLink]="['desktop']">Desktop
-            </a>
+          <li 
+            <a [routerLink]="['/']">Home</a>
           </li>
-          <li class="nav-item"
+          <li 
+            <a [routerLink]="['/desktop']">Desktop</a>
+          </li>
+          <li 
+            <a [routerLink]="['/desktop']">Desktop</a>
+          </li>
+          <!-- <li class="nav-item"
               [routerLinkActive]="['active']">
             <a class="nav-link"
                [routerLink]="['androidapp']">Android App
             </a>
-          </li>
+          </li> -->
         </ul>
       </nav>
 
