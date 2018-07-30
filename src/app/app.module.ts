@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {MatTabsModule} from '@angular/material/tabs';
+import { Routes, ROUTER_DIRECTIVES } from '@angular/router';
 // import { AppComponent } from './app.component';
 import { HomeComponent } from './src/header/home/home.component';
 import { DeskTopComponent } from './src/header/desk-top/desk-top.component';
@@ -37,4 +37,20 @@ import { MainComponent } from './src/main/main.component';
   providers: [],
   bootstrap: [MainComponent]
 })
+
+@Component({
+  selector: 'app',
+  templateUrl: require('app/app.component.html'),
+  styleUrls: [require('app/app.component.css')],
+  directives: [ROUTER_DIRECTIVES],
+  providers: [StateService, ExperimentsService],
+})
+
+@Routes([
+  {path: '/',            component: HomeComponent },
+  {path: '/home',        component: HomeComponent},
+  {path: '/desktop',       component: DeskTopComponent },
+  {path: '/android', component: AndroidAppComponent },
+  {path: '/*',           component: HomeComponent }
+])
 export class AppModule { }
