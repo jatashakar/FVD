@@ -30,18 +30,18 @@ import { MainComponent } from './src/main/main.component';
     ContactComponent,
     DMCAComponent,
     FAQComponent,
-    MainComponent,
+    MainComponent
+  ],
+  imports: [
+    BrowserModule,
     RouterModule.forRoot([
         {path : 'home' , component: HomeComponent},
         {path : 'desktop' , component: DeskTopComponent},
+        {path : 'androidapp' , component: AndroidAppComponent},
         {path : 'home' , component: HomeComponent},
         {path : '' , redirectTo: 'home', pathMatch: 'full'},
         {path : '**' , redirectTo: 'home', pathMatch: 'full'}
-  
       ])
-  ],
-  imports: [
-    BrowserModule
   ],
   providers: [],
   bootstrap: [MainComponent]
