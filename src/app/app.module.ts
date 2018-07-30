@@ -20,6 +20,9 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'desktop', component: DeskTopComponent },
   { path: 'androidapp', component: AndroidAppComponent },
+  { path: 'youtubemp3converter', component: YoutubeMp3ConverterComponent },
+  { path: 'youtubedownloaderforios', component: YoutubeDownloaderForIOSComponent },
+  { path: 'facebookvideodownloader', component: FacebookVideoDownloaderComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', redirectTo: '/home', pathMatch: 'full' }
 ];
