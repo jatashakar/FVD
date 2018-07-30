@@ -40,7 +40,8 @@ const appRoutes: Routes = [
     MainComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes, { enableTracing: true })
   ],
   providers: [],
   bootstrap: [MainComponent]
