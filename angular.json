@@ -23,14 +23,10 @@
               "src/assets"
             ],
             "styles": [
-              "styles.css",
-        "../node_modules/bootstrap/dist/css/bootstrap.css"
+              "styles.scss",
+   "../node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [
-              "../node_modules/jquery/dist/jquery.js",
-        "../node_modules/tether/dist/js/tether.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -77,7 +73,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [],
             "assets": [
