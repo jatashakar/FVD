@@ -37,30 +37,6 @@ import { MainComponent } from './src/main/main.component';
   providers: [],
   bootstrap: [MainComponent]
 
-  export const routerConfig: Routes = [
-    {
-        path: 'home',
-        component: HomeComponent
-    },
-    {
-        path: 'desktop',
-        component: DeskTopComponent
-    },
-    {
-        path: 'android',
-        component: AndroidAppComponent
-    },
-    {
-        path: '',
-        redirectTo: '/home',
-        pathMatch: 'full'
-    },
-    {
-        path: '**',
-        redirectTo: '/home',
-        pathMatch: 'full'
-    }
-  ]
 })
 
 
