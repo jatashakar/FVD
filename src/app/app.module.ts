@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // import { AppComponent } from './app.component';
 // import { Routes } from '@angular/router';
-import { AppBootstrapModule } from './app-bootstrap/app-bootstrap.module';
 import {Router} from '@angular/router';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './src/header/home/home.component';
