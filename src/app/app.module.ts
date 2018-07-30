@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+// import { AppComponent } from './app.component';
 import { HomeComponent } from './src/header/home/home.component';
 import { DeskTopComponent } from './src/header/desk-top/desk-top.component';
 import { AndroidAppComponent } from './src/header/android-app/android-app.component';
@@ -17,7 +17,7 @@ import { MainComponent } from './src/main/main.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+   // AppComponent,
     HomeComponent,
     DeskTopComponent,
     AndroidAppComponent,
@@ -35,6 +35,6 @@ import { MainComponent } from './src/main/main.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [MainComponent]
 })
-//export class AppModule { }
+export class AppModule { }
