@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // import { AppComponent } from './app.component';
 // import { Routes } from '@angular/router';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './src/header/home/home.component';
 import { DeskTopComponent } from './src/header/desk-top/desk-top.component';
 import { AndroidAppComponent } from './src/header/android-app/android-app.component';
@@ -15,6 +15,13 @@ import { ContactComponent } from './src/footer/contact/contact.component';
 import { DMCAComponent } from './src/footer/dmca/dmca.component';
 import { FAQComponent } from './src/footer/faq/faq.component';
 import { MainComponent } from './src/main/main.component';
+const appRoutes: Routes = [
+  { path: 'home', component: HomeComponent },
+  { path: 'desktop', component: DeskTopComponent },
+  { path: 'androidapp', component: AndroidAppComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', redirectTo: '/home', pathMatch: 'full' }
+];
 
 @NgModule({
   declarations: [
@@ -33,15 +40,7 @@ import { MainComponent } from './src/main/main.component';
     MainComponent
   ],
   imports: [
-    BrowserModule,
-    RouterModule.forRoot([
-        {path : 'home' , component: HomeComponent},
-        {path : 'desktop' , component: DeskTopComponent},
-        {path : 'androidapp' , component: AndroidAppComponent},
-        {path : 'home' , component: HomeComponent},
-        {path : '' , redirectTo: 'home', pathMatch: 'full'},
-        {path : '**' , redirectTo: 'home', pathMatch: 'full'}
-      ])
+    BrowserModule
   ],
   providers: [],
   bootstrap: [MainComponent]
