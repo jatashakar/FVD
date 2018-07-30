@@ -41,9 +41,18 @@
           <a class="navbar-brand" href="/">Angular & Bootstrap</a>
           <div class="navbar-expand mr-auto">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Home</a>
-              <a class="nav-item nav-link" href="#">About</a>
-              <a class="nav-item nav-link" href="#">Contact</a>
+                <ul class="nav navbar-nav">
+                    <li> 
+                      <a [routerLink]="['/']">Home</a>
+                    </li>
+                    <li> 
+                      <a [routerLink]="['/desktop']">Desktop</a>
+                    </li>
+                    <li >
+                      <a [routerLink]="['/androidapp']">Android App</a>
+                    </li>
+             
+                  </ul> 
             </div>
           </div>
           <div class="navbar-expand ml-auto navbar-nav">
