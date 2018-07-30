@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // import { AppComponent } from './app.component';
-import { Routes } from '@angular/router';
+// import { Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { HomeComponent } from './src/header/home/home.component';
 import { DeskTopComponent } from './src/header/desk-top/desk-top.component';
 import { AndroidAppComponent } from './src/header/android-app/android-app.component';
