@@ -40,8 +40,8 @@ import { MainComponent } from './src/main/main.component';
         {path : 'desktop' , component: DeskTopComponent},
         {path : 'androidapp' , component: AndroidAppComponent},
         {path : 'home' , component: HomeComponent},
-        {path : '' , redirectTo: 'main', pathMatch: 'full'},
-        {path : '**' , redirectTo: 'main', pathMatch: 'full'}
+        {path : '' , redirectTo: 'home', pathMatch: 'full'},
+        {path : '**' , redirectTo: 'home', pathMatch: 'full'}
       ])
   ],
   providers: [],
