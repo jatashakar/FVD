@@ -44,12 +44,12 @@ export const routerConfig: Routes = [
       component: HomeComponent
   },
   {
-      path: 'about',
-      component: AboutComponent
+      path: 'desktop',
+      component: DeskTopComponent
   },
   {
-      path: 'courses',
-      component: CoursesComponent
+      path: 'android',
+      component: AndroidAppComponent
   },
   {
       path: '',
