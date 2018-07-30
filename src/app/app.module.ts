@@ -35,7 +35,6 @@ import { MainComponent } from './src/main/main.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-        {path : 'main' , component: MainComponent},
         {path : 'home' , component: HomeComponent},
         {path : 'desktop' , component: DeskTopComponent},
         {path : 'androidapp' , component: AndroidAppComponent},
