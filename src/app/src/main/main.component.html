@@ -15,25 +15,12 @@
            [routerLink]="['home']">Home
         </a>
         <a class="navbar-brand"
-           [routerLink]="['home']">Home
+           [routerLink]="['desktop']">Desktop
         </a>
         <a class="navbar-brand"
-           [routerLink]="['home']">Home
+           [routerLink]="['androidapp']">Android App
         </a>
-        <ul class="nav navbar-nav">
-          <li class="nav-item"
-              [routerLinkActive]="['active']">
-            <a class="nav-link"
-               [routerLink]="['desktop']">Desktop
-            </a>
-          </li>
-          <li class="nav-item"
-              [routerLinkActive]="['active']">
-            <a class="nav-link"
-               [routerLink]="['androidapp']">Android App
-            </a>
-          </li>
-        </ul>
+    
       </nav>
 
        <router-outlet></router-outlet>
