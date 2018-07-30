@@ -30,7 +30,15 @@ import { MainComponent } from './src/main/main.component';
     ContactComponent,
     DMCAComponent,
     FAQComponent,
-    MainComponent
+    MainComponent,
+    RouterModule.forRoot([
+        {path : 'products' , component: ProductListComponent},
+        {path : 'products/:id' , component: ProductDetailsComponent},
+        {path : 'welcome' , component: WelcomeComponent},
+        {path : '' , redirectTo: 'welcome', pathMatch: 'full'},
+        {path : '**' , redirectTo: 'welcome', pathMatch: 'full'}
+  
+      ])
   ],
   imports: [
     BrowserModule
