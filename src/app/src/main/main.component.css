@@ -3568,7 +3568,9 @@ footer div p a{
     .search_part input{
         width:100%
     }
-   
+    .search_down_btn{
+        width:30%
+    }
     .apk{
         height:auto;
         display:inline-flex
