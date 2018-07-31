@@ -102,13 +102,7 @@
 .search_part{
     background: #000;
 }
-.active{
-color: green;
 
-}
-.nav-item nav-link{
-    background: #007acc;
-}
 .search-txt,.search_part input{
     background:rgba(255,255,255,.6)!important;
     display:inline-block
