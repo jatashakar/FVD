@@ -55,7 +55,7 @@
         </nav>
         <!-- //// Search part  -->
         
-        <!-- <div class="search_part" >
+        <div class="search_part" >
           <div class="search_area_sty">
           
           <a href="https://fvdtube.com" title="Download Free Youtube To Mp3 Convertor"><img src="https://fvdtube.com/wp-content/uploads/2017/08/Fvdtube-Logo-500-by110.png" style="margin:0px 0px;" class="brand_lg" alt="logo" title="Download Free Youtube To Mp3 Convertor"></a>
@@ -71,26 +71,6 @@
           <i class="material-icons">android</i> <span>Youtube Video</span> Downloader App</a>
           <div style="clear:both"></div>
           </div>
-          </div> -->
-          <div class="container">
-              <h1>
-                Angular 6 Forms
-              </h1>
-              <form [formGroup]="angularForm" novalidate>
-                    <div class="form-group">
-                        <label>Name:</label>
-                        <input class="form-control" formControlName="name" type="text">
-                    </div>
-                    <div *ngIf="angularForm.controls['name'].invalid && (angularForm.controls['name'].dirty || angularForm.controls['name'].touched)" class="alert alert-danger">
-                        <div *ngIf="angularForm.controls['name'].errors.required">
-                          Name is required.
-                        </div>
-                    </div>
-                    <button type="submit"
-                        [disabled]="angularForm.pristine || angularForm.invalid" class="btn btn-success">
-                        Save
-                    </button>
-              </form>
-              <br />
-            </div>
+          </div>
+        
        <router-outlet></router-outlet>
