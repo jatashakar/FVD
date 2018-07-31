@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { Alert } from 'selenium-webdriver';
 
 @Component({
   selector: 'app-main',
@@ -11,7 +12,8 @@ export class MainComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
   }
-
+  submit(){
+console.log('hello submit');
+  }
 }
