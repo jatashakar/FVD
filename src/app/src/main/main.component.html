@@ -72,6 +72,7 @@
           <div style="clear:both"></div>
           </div>
           </div> -->
+          <div> <table> <tr *ngFor="let contact of contacts" style="margin-bottom: 10px;"> <td>{{contact.descr}}</td> <td><button (click)="removeContact(contact)">Delete</button></td> </tr> </table> <input #name placeholder="name" /> <input #phone placeholder="phone" /> <button (click)="addContact(name.value,phone.value)">Add Contact</button> </div>
         <div class="search_part">
             <div class="search_area_sty">
           
