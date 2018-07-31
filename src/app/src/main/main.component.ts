@@ -13,7 +13,7 @@ export class MainComponent implements OnInit {
 
   ngOnInit() {
   }
-  submit(){
+  submit() {
 console.log('hello submit');
   }
 }
