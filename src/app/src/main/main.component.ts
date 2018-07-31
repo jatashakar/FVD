@@ -10,7 +10,7 @@ import { Alert } from 'selenium-webdriver';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  constructor(private formBuilder: FormBuilder) { }
 
   ngOnInit() {
   }
