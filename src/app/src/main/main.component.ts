@@ -7,7 +7,9 @@ import { FormControl, FormGroup } from '@angular/forms';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-
+  myGroup = new FormGroup({
+    firstName: new FormControl()
+ });
   constructor() { }
 
   ngOnInit() {
