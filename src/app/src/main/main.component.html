@@ -72,17 +72,18 @@
           <div style="clear:both"></div>
           </div>
           </div> -->
-          <div> <table> <tr *ngFor="let contact of contacts" style="margin-bottom: 10px;"> <td>{{contact.descr}}</td> <td><button (click)="removeContact(contact)">Delete</button></td> </tr> </table> <input #name placeholder="name" /> <input #phone placeholder="phone" /> <button (click)="addContact(name.value,phone.value)">Add Contact</button> </div>
+          
         <div class="search_part">
             <div class="search_area_sty">
           
                 <a href="https://fvdtube.com" title="Download Free Youtube To Mp3 Convertor"><img src="https://fvdtube.com/wp-content/uploads/2017/08/Fvdtube-Logo-500-by110.png" style="margin:0px 0px;" class="brand_lg" alt="logo" title="Download Free Youtube To Mp3 Convertor"></a>
                 </div>
-    <form [formGroup]="angularForm" novalidate>
-        <input class="search-txt" placeholder="e.g. https://www.youtube.com/watch?v=xDytyBDH0S0" name="q" value="" type="text">
+    <!-- <orm [formGroup]="angularForm" novalidate> -->
+
+<div input class="search-txt" placeholder="e.g. https://www.youtube.com/watch?v=xDytyBDH0S0" name="q" value="" type="text">
         <button class="search_down_btn icon_btn"><i class="material-icons">search</i></button>
         <button class="search_down_btn">Download Now</button>
-    </form>
+</div>
     <div class="apk">
           
         <a href="https://api.fvdtube.com/nw/fvdtube.apk" class="search_down_btn android" type="submit">
