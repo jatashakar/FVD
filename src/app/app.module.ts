@@ -46,7 +46,6 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule,
     RouterModule.forRoot(appRoutes, { enableTracing: true })
   ],
   providers: [],
