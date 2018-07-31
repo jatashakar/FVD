@@ -13,6 +13,10 @@
     font-size: 14px; margin: 0 5px;}
 .apk .android{background:red!important;}
 /*end*/
+
+.search_part{
+    background: #000;
+}
 .search-txt,.search_part input{
     background:rgba(255,255,255,.6)!important;
     display:inline-block
@@ -4738,7 +4742,6 @@ footer ul li{
     .search_part form{
         display:inline-flex;
         margin-left:0;
-        background: #000;
         width:85%!important
     }
     .search_part input{
