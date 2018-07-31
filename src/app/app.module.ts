@@ -23,8 +23,8 @@ const appRoutes: Routes = [
   { path: 'youtubemp3converter', component: YoutubeMp3ConverterComponent },
   { path: 'youtubedownloaderforios', component: YoutubeDownloaderForIOSComponent },
   { path: 'facebookvideodownloader', component: FacebookVideoDownloaderComponent },
-  // { path: '', redirectTo: '/home', pathMatch: 'full' },
-  // { path: '**', redirectTo: '/home', pathMatch: 'full' }
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({
