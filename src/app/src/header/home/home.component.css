@@ -4917,7 +4917,6 @@ h3{
     content: '';
     display: table;
     position: absolute;
-    background: url(../img/bullet_icon-1.png) no-repeat;
     width: 8px;
     height: 8px;
     top: 8px;
