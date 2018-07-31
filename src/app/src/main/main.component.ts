@@ -31,6 +31,6 @@ export class MainComponent implements OnInit {
         return;
     }
 
-    alert('SUCCESS!! :-)')
+    alert('SUCCESS!! :-)');
 }
 }
