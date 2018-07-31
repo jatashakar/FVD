@@ -17,13 +17,13 @@ import { DMCAComponent } from './src/footer/dmca/dmca.component';
 import { FAQComponent } from './src/footer/faq/faq.component';
 import { MainComponent } from './src/main/main.component';
 const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
+  // { path: 'home', component: HomeComponent },
   { path: 'desktop', component: DeskTopComponent },
   { path: 'androidapp', component: AndroidAppComponent },
   { path: 'youtubemp3converter', component: YoutubeMp3ConverterComponent },
   { path: 'youtubedownloaderforios', component: YoutubeDownloaderForIOSComponent },
   { path: 'facebookvideodownloader', component: FacebookVideoDownloaderComponent },
-    { path: '', redirectTo: '/home', pathMatch: '' },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
   // { path: '**', redirectTo: '/home', pathMatch: 'full' }
 ];
 
