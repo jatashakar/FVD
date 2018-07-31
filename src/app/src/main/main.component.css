@@ -4762,7 +4762,7 @@ footer ul li{
     color:#000!important;
     display:inline-block;
     height:48px;
-    padding:13px 18px
+    padding: 13px 13px 17px 0;
 }
 .site-footer{
     background:#000;
