@@ -12,7 +12,10 @@ export class MainComponent implements OnInit {
   registerForm: FormGroup;
     submitted = false;
 
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder) {
+    this.registerForm = this.formBuilder.group({
+    });
+   }
 
   ngOnInit() {
   //  this.registerForm = this.formBuilder.group({
