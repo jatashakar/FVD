@@ -22,7 +22,9 @@ export class MainComponent implements OnInit {
       // password: ['', [Validators.required, Validators.minLength(6)]]
   });
   }
-  get f() { return this.registerForm.controls; }
+  get f() {
+     return this.registerForm.controls;
+     }
   onSubmit() {
     this.submitted = true;
 
