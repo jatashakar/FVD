@@ -16,7 +16,10 @@ export class MainComponent implements OnInit {
     this.registerForm = this.formBuilder.group({
     });
    }
+checkFunForGitHub() {
+  console.log('checkFunForGitHub');
 
+}
   ngOnInit() {
     console.log('Console ngOnInit');
   //  this.registerForm = this.formBuilder.group({
