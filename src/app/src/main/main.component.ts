@@ -18,6 +18,7 @@ export class MainComponent implements OnInit {
    }
 
   ngOnInit() {
+    console.log('Console ngOnInit');
   //  this.registerForm = this.formBuilder.group({
       // firstName: ['', Validators.required],
       // lastName: ['', Validators.required],
